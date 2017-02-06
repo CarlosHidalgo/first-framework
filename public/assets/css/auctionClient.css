@@ -1,0 +1,140 @@
+.panel{
+    margin-bottom: 0px;
+}
+.chat-window{
+    bottom:0;
+    position:fixed;
+}
+
+.chat-window > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+.icon_minim{
+    padding:2px 10px;
+}
+.msg_container_base{
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0 10px 10px;
+  max-height:300px;
+  overflow-x:hidden;
+}
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.msg_receive{
+    padding-left:0;
+    margin-left:0;
+}
+.msg_sent{
+    padding-bottom:20px !important;
+    margin-right:0;
+}
+.messages {
+  background: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  max-width:100%;
+}
+
+.bids {
+  background: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  max-width:100%;
+}
+
+.msg_container {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.base_sent {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.msg_container_base::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.btn-group.dropup{
+    position:fixed;
+    left:0px;
+    bottom:0;
+}
+
+.system_msg{
+	color: #BDBDBD;
+	font-style: italic;
+}
+
+/* ============================================================
+  FLASH YELLOW
+============================================================ */
+
+.flash{
+	
+	-webkit-animation: flash linear 2s 3;
+	animation: flash linear 1s 3;
+}
+
+@-webkit-keyframes flash {
+	0% {background-color : transparent;}
+    25%   {background-color: yellow;}
+    50% {background-color : transparent;}
+    100% {background-color : transparent;}
+}
+@keyframes flash {
+	0% {background-color : transparent;}
+    25%   {background-color: yellow;}
+    50% {background-color : transparent;}
+    100% {background-color : transparent;}
+}
+
+/* ============================================================
+  FLASH 2
+============================================================ */
+
+.flash2{
+    
+    -webkit-animation: flash2 linear 2s 3;
+    animation: flash2 linear 1s 3;
+}
+
+@-webkit-keyframes flash2 {
+    0% {background-color : transparent;}
+    25%   {background-color: yellow;}
+    50% {background-color : transparent;}
+    100% {background-color : transparent;}
+}
+@keyframes flash2 {
+    0% {background-color : transparent;}
+    25%   {background-color: yellow;}
+    50% {background-color : transparent;}
+    100% {background-color : transparent;}
+}
+ 
+
+
